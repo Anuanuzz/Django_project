@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>HTML Font</title>
+   </head>
+
+   <body bgcolor='#FFF0F5' width='100%'>
+
+      <center><h1 style = "font-family:georgia,garamond,serif;font-size:40px;font-style:italic;">
+         Gee Bee Online Food Service
+
+      </h1></center>
+</div>
+<div class="container">
+<div class="image">
+<img src="https://th.bing.com/th/id/OIP.KWLE2GEz3ZSW6eGuW3eoVQHaHg?pid=ImgDet&rs=1" alt="cook" height="450" align="center">
+</div>
+      <div class="text">
+        <h2><i>We never run out of options, that's why east or west, we provide the best....!</i></h2>
+<style>
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+img {
+  max-width: 100%
+}
+
+.image {
+  flex-basis: 40%
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+}
+</style>
+   </body>
+
+</html>

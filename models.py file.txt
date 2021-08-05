@@ -1,0 +1,19 @@
+from django.db import models
+
+class Project(models.Model):
+    projname=models.CharField(max_length=200)
+    trainername=models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.projname
+class Project_1(models.Model):
+    proj=models.ForeignKey(Project, on_delete=models.CASCADE)
+    projname_1=models.CharField(max_length=200)
+    trainername_1=models.CharField(max_length=100)
+
+    def __str__(self):
+        return self.projname_1
+
+
+# Create your models here.
+# Create your models here.

@@ -1,0 +1,9 @@
+<!Doc Type html>
+<html>
+<head>
+<center><h2><i>Thank-you for your valuable feedback.....!</i></h2></center>
+<title>Feedback</title>
+</head>
+<body bgcolor='#FFEBCD' width='100%'>
+</body>
+</html>

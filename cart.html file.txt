@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>placed</title>
+<form action="success" method="post">
+    {% csrf_token %}
+<b>Address:</b>
+
+<label for="multiLineInput">
+
+    <textarea rows="5" cols="20" id="multiLineInput">Peace Dale, Adithya Nagar-200, Vadakkevila Kollam</textarea><br><br>
+<input style="background-color: blue" type="submit" value="Change or Add Address"><br><hr>
+<h4><i>Fill your tummy with your favourite order</i></h4>
+<button class="button">4.5*</button>
+<label for="quantity"></label>
+<select id="quantity">
+<option value="select">Qty</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="more">more</option>
+</select><br>
+<hr>
+<h4><i><u>Amount Details-:</u></i></h4>
+<label for="amount"></label>
+<select id="amount">
+<option value="select">Select the price</option>
+<option value="250">Rs 250</option>
+<option value="800">Rs 800</option>
+<option value="100">Rs 100</option>
+<option value="1000">Rs 1000</option>
+<option value="120">Rs 120</option>
+<option value="200">Rs 200</option>
+<option value="500">Rs 500</option>
+<option value="80">Rs 80</option>
+</select><br>
+<b>Enter your amount:</b>
+    <input type="text" name="name"><br><br>
+<label for="amount"></label>
+<select id="amount">
+<option value="select">Select the price</option>
+<option value="250">Rs 50</option>
+<option value="800">Rs 60</option>
+<option value="100">Rs 75</option>
+<option value="1000">Rs 100</option>
+
+</select><br>
+<b>Delivery Charges:</b>
+    <input type="text" name="name" ><br><br>
+
+<b>Total Amount:</b><input type="text"><br><br>
+
+<b>Payment Options:</b>
+<input type="checkbox" value="UPI" name="payment">UPI
+<input type="checkbox" value="wallets" name="payment">Wallets
+<input type="checkbox" value="card" name="payment">Credit/Debit/ATM Card
+<input type="checkbox" value="bank" name="payment">Net Banking
+<input type="checkbox" value="cash" name="payment">Cash on Delivery
+<br><br>
+<button style="background-color: SteelBlue" type="submit" id="submit">Place the order</button>
+</form>
+</body>
+</html>
+
+<style>
+.button {
+
+  background-color: #008000;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+</style>

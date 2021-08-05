@@ -1,0 +1,15 @@
+#menu ul
+{
+list-style:none;
+}
+#menu ul li
+{
+background-color:yellow;
+border: 2px solid white;
+width: 367px;
+height: 40px;
+text-align:center;
+line-height:50px;
+float:left;
+
+}

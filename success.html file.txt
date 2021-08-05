@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Congrats</title>
+</head>
+<center><h2>Congratulations.....!Your order is on the way.....!</h2></center>
+<body bgcolor='#D3D3D3' width='100%'>
+<img src="https://th.bing.com/th/id/OIP.K6fZEMN9xVj6EQUha4TJwAHaEm?pid=ImgDet&rs=1" alt="success" width="180" height="350" class="center">
+<style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+</style>
+</body>
+</html>

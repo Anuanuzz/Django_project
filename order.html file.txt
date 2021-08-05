@@ -1,0 +1,72 @@
+<!Doc Type html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>CV Design</title>
+</head>
+<body bgcolor='#FFC0CB' width='100%'>
+
+<div id="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="aboutUs">About us</a></li>
+<li><a href="#">Order</a></li>
+<li><a href="#">Feedback</a></li>
+
+</ul>
+</div>
+
+<table width='100%' height='800px' align='center'>
+<tr>
+<td>
+<a href="cart">
+<img src ='https://th.bing.com/th/id/OIP.N4ZcAJOIUDYPU9WLHAMOFgHaFC?pid=ImgDet&rs=1' align="top" alt=""Biriyani"></img></a>
+<br> <h3><b><i>Dum Biryani</i></b> </h3>
+<h4><i>Amount- Rs 250</i></h4></td>
+
+
+<td>
+<a href="cart">
+<img src ='https://th.bing.com/th/id/OIP.dbg0B-ZRZk_HAQyD--GfkgHaHa?pid=ImgDet&rs=11'  align="top" style="
+    height: 322px;
+"> </img></a>
+<br> <h3><b><i> Veg Pizza</i></b> </h3>
+<h4><i>Amount- Rs 120</i></h4></td>
+
+
+<td>
+<a href="cart">
+<img src ='https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_600/31204_chocolate-truffle.jpeg' align="top" style="
+    height: 322px;
+"> </img></a>
+<br> <h3><b><i>Chocolate Truffle Cake</i></b> </h3>
+<h4><i>Amount- Rs 800</i></h4></td></tr>
+
+<tr>
+<td>
+
+<a href="cart">
+<img src ='https://swirled.com/wp-content/uploads/2018/08/madeline-tallman-44555-unsplash.jpg'  align="top" style="
+   height: 322px;
+"> </img></a>
+<br> <h3><b><i>Snow paradise sundae</i></b> </h3>
+<h4><i>Amount- Rs 100</i></h4></td>
+
+<td>
+<a href="cart">
+<img src ='https://th.bing.com/th/id/OIP.gTDei4Y4_DZmS6PYcHDJJgHaE8?pid=ImgDet&rs=1' align="top" style="
+ height:322px;
+"> </img></a>
+<br> <h3><b><i>Noodle</i></b> </h3>
+<h4><i>Amount- Rs 250</i></h4></td>
+
+<td>
+<a href="cart">
+<img src ='https://www.cookincanuck.com/wp-content/uploads/2020/01/Baked-French-Fries-Garlic-Parmesan-Cookin-Canuck-4-scaled.jpg' align="top" style="
+height: 322px;
+"> </img></a>
+<br> <h3><b><i>French Fries</i></b> </h3>
+    <h4><i>Amount- Rs 80</i></h4></td></tr>
+
+</body>
+</html>

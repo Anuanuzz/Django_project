@@ -1,0 +1,32 @@
+<!Doc Type html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Home</title>
+</head>
+<body bgcolor='#FFEBCD' width='100%'>
+<div id="menu">
+<ul>
+<li><a href="Home-page">Home</a></li>
+<li><a href="aboutUs">About us</a></li>
+<li><a href="order">Order</a></li>
+<li><a href="feedback">Feedback</a></li>
+
+</ul>
+</div>
+
+<table width='100%' height='800px' align='center'>
+<tr>
+<td width='200px'>
+
+<center><img src="https://i.pinimg.com/originals/94/d9/9b/94d99b0d905dab910dd0054f3fcb0233.jpg"  width="680" height="500"></center>
+
+<h1 style="margin-left:40%;font-size:55px"> <b><i>WELCOME</b></i></h1>
+<h2><i><marquee style ='font-size:20px;font-weight:bold; color:maroon' > Giving your Hunger a new option......!So hurry up and place your order now! </marquee></i></h2> <hr>
+
+<h1><b><center>We eat with our eyes first, but before we see our food, we picture it while reading the menu descriptions. <br>
+It's not enough to be good most of the time, but we nails it every single time. </center></h1></b> <br>
+ <br><br>
+
+</body>
+</html>

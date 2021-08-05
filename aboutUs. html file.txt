@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+background: #FFFAF0;
+}
+/* Style the header */
+header {
+  background-color: F0FFF0;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: white;
+  padding: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: white;
+  height: 300px; /* only for demonstration, should be removed */
+}
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the footer */
+footer {
+  background-color:#0B0B61;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+  <center><h2>About Us</center></h2>
+
+<section>
+<nav></nav>
+  <article>
+    <h1>Gee Bee Online Food service</h1>
+    <p>Good food at your foodstep is the usb of our online service. <br>
+Since 1999, we are serving the best service around many places spreading up with a new craft and new space of taste with an oasis pf pleasure...!</p>
+    <p>We provide:<ul>
+     <li>High customer satisfaction</li>
+     <li>Quality services</li>
+     <li>98% service at your doorstep</li>
+     <li>Best quality and lowest possible prices</li>
+    </ul></p>
+
+  </article>
+</section>
+<footer>
+ <p> We also provide advertisement services to clients who are willing to advertise their product and services on board with a minimun fee. </p>
+  <p style="color:powderblue";>contact us: geebeefs@gmail.com</p>
+</footer>
+</body>
+</html>

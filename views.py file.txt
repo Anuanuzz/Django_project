@@ -1,0 +1,25 @@
+from django.http import HttpResponse
+from django.shortcuts import render
+def hi(request):
+    return render(request, 'DEMOAPP/login.html')
+def hello(request):
+    return render(request, 'DEMOAPP/home.html')
+def hello1(request):
+    return render(request, 'DEMOAPP/Home-page.html')
+def hello2(request):
+    return render(request, 'DEMOAPP/aboutUs.html')
+def hello3(request):
+    return render(request, 'DEMOAPP/order.html')
+def hello4(request):
+    return render(request, 'DEMOAPP/feedback.html')
+def hello5(request):
+    return render(request, 'DEMOAPP/style.css')
+def hello6(request):
+    return render(request, 'DEMOAPP/cart.html')
+def hello7(request):
+    return render(request, 'DEMOAPP/success.html')
+def hello8(request):
+    return render(request, 'DEMOAPP/thankyou.html')
+
+
+
